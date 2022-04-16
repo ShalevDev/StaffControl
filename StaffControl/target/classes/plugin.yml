@@ -1,0 +1,38 @@
+name: StaffControl
+version: 1.2
+main: com.shalev.staffcontrol.Main
+api-version: 1.13
+commands:
+  unban:
+    permission: sc.unban
+    permission-message: §4You do not have the permission to perform this command!
+
+  staffChat:
+    aliases: [sc]
+    permission: sc.staffchat
+    permission-message: §4You do not have the permission to perform this command!
+    usage: §4Syntax error! Perhaps you meant §7/staffChat <message>
+
+  setCompass:
+    permission: sc.setCompass
+    permission-message: §4You do not have the permission to perform this command!
+    usage: §4Syntax error! Perhaps you meant §7/setCompass <x> <y> <z>
+
+  playerDetails:
+    permission: sc.playerDetails
+    permission-message: §4You do not have the permission to perform this command!
+    usage: §4Syntax error! Perhaps you meant §7/playerDetails <player>
+
+  vanish:
+    permission: sc.vanish
+    permission-message: §4You do not have the permission to perform this command!
+    usage: §4Syntax error! Perhaps you meant §7/vanish
+  punish:
+    permission: sc.punish
+    permission-message: §4You do not have the permission to perform this command!
+    usage: §4Syntax error! Perhaps you meant §7/punish add <name> <time> <type>
+
+  staff:
+    usage: §4Syntax error! Perhaps you meant §7/staff
+    permission: sc.staff
+    permission-message: §4You do not have the permission to perform this command!
